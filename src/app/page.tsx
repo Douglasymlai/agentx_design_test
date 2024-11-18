@@ -3,6 +3,7 @@
 import './Widget.css'; // Assuming you have a separate CSS file for styles
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
+import Widget from "@/components/starter";
 
 const FloatingWidget: React.FC = () => {
     return (
@@ -13,6 +14,7 @@ const FloatingWidget: React.FC = () => {
             <Button variant="default" className='transition-all' onClick={() => alert('Full Transition Clicked!')}>Full Transition</Button>
             <Button variant="default" className='transition-none' onClick={() => alert('No Transition Clicked!')}>No Transition</Button>
             <Button variant="default" className='duration-200 ease-in' onClick={() => alert('No Transition Clicked!')}>No Transition</Button>
+            <Widget />
         </div>
         
     );

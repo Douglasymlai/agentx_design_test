@@ -1,1 +1,7 @@
-{}
+{
+  "/page": "app/page.js",
+  "/micro/page": "app/micro/page.js",
+  "/ripple/page": "app/ripple/page.js",
+  "/border/page": "app/border/page.js",
+  "/agent1/page": "app/agent1/page.js"
+}
